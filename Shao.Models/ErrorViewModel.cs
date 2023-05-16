@@ -1,4 +1,4 @@
-namespace ShaoWeb.Models
+namespace Shao.Models
 {
     public class ErrorViewModel
     {

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33626.354
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaoWeb", "ShaoWeb\ShaoWeb.csproj", "{A560BC4A-9526-42CB-A151-47455DFF2212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShaoWeb", "ShaoWeb\ShaoWeb.csproj", "{A560BC4A-9526-42CB-A151-47455DFF2212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shao.DataAccess", "Shao.DataAccess\Shao.DataAccess.csproj", "{24CCF634-D2CB-4AE6-8B59-074E6E092F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shao.Models", "Shao.Models\Shao.Models.csproj", "{18E6A697-360B-4CF3-A6FA-1B4F58BB0F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shao.Utility", "Shao.Utility\Shao.Utility.csproj", "{B6588860-F198-435E-8CA9-95A7CA8C7382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A560BC4A-9526-42CB-A151-47455DFF2212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A560BC4A-9526-42CB-A151-47455DFF2212}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A560BC4A-9526-42CB-A151-47455DFF2212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CCF634-D2CB-4AE6-8B59-074E6E092F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CCF634-D2CB-4AE6-8B59-074E6E092F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CCF634-D2CB-4AE6-8B59-074E6E092F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CCF634-D2CB-4AE6-8B59-074E6E092F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E6A697-360B-4CF3-A6FA-1B4F58BB0F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E6A697-360B-4CF3-A6FA-1B4F58BB0F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E6A697-360B-4CF3-A6FA-1B4F58BB0F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E6A697-360B-4CF3-A6FA-1B4F58BB0F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6588860-F198-435E-8CA9-95A7CA8C7382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6588860-F198-435E-8CA9-95A7CA8C7382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6588860-F198-435E-8CA9-95A7CA8C7382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6588860-F198-435E-8CA9-95A7CA8C7382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
