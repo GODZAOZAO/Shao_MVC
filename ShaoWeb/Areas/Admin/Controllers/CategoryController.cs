@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Shao.DataAccess.Data;
 using Shao.DataAccess.Repository.IRepository;
 using Shao.Models;
+using Shao.Utility;
+using System.Data;
 
 namespace ShaoWeb.Controllers
 {
     [Area("Admin")]
+    //[Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
