@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Shao.Models.ViewModels
 {
-	internal class OrderVM
+	public class OrderVM
 	{
+		public OrderHeader OrderHeader { get; set; }
+		public IEnumerable<OrderDetail> OrderDetail { get; set; }
 	}
 }
