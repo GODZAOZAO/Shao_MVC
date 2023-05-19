@@ -1,4 +1,4 @@
-# C# .Net7 Website
+# C# .Net7 Website / SQL server / Microsoft Azure
 
 ## Overview
 
