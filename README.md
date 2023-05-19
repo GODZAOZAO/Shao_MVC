@@ -32,6 +32,14 @@ The project follows the Model-View-Controller (MVC) architectural pattern, which
 - Controllers: Handle user requests, interact with models, and coordinate the flow of data between models and views.
 - Routing: The routing mechanism maps URLs to specific controllers and actions to handle user requests.
 
+### Payment Integration with Stripe API
+The project integrates with the Stripe API for payment processing. The features related to payment processing include:
+
+- Online payment acceptance: Users can securely make payments for products or services using various payment methods supported by Stripe.
+- Payment gateway integration: The application integrates with the Stripe payment gateway to handle payment transactions securely.
+- Seamless checkout experience: Users can easily complete the payment process with a smooth and user-friendly checkout flow.
+- Payment status tracking: The application tracks and manages the status of payment transactions, allowing users and administrators to view and monitor the payment history.
+
 ## Deployment
 Using Microsoft Azure for depolyment.
 
